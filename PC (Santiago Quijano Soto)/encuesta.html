@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Encuesta</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 30px;
+      background: #f9f9f9;
+      text-align: center;
+    }
+    .formulario {
+      background: #fff;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+      max-width: 700px;
+      margin: auto;
+      text-align: left;
+    }
+    label {
+      display: block;
+      margin: 20px 0 5px;
+    }
+    select, textarea {
+      width: 100%;
+      padding: 10px;
+      border-radius: 5px;
+    }
+    .btn {
+      margin-top: 20px;
+      background-color: #e50914;
+      color: white;
+      padding: 12px 25px;
+      border: none;
+      border-radius: 5px;
+      text-decoration: none;
+      display: inline-block;
+      cursor: pointer;
+    }
+    .btn-volver {
+      background-color: #444;
+      margin-left: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="formulario">
+    <h2>Encuesta de Satisfacción</h2>
+    <form action="https://www.instagram.com/paloma.pe_" target="_blank">
+
+      <label>1. ¿Qué tan satisfecho estás con la película?</label>
+      <select>
+        <option>Muy satisfecho</option>
+        <option>Satisfecho</option>
+        <option>Regular</option>
+        <option>Insatisfecho</option>
+      </select>
+
+      <label>2. ¿Te gustaron los efectos especiales?</label>
+      <select>
+        <option>Mucho</option>
+        <option>Algo</option>
+        <option>Poco</option>
+        <option>Nada</option>
+      </select>
+
+      <label>3. ¿Cómo calificarías la actuación?</label>
+      <select>
+        <option>Excelente</option>
+        <option>Buena</option>
+        <option>Regular</option>
+        <option>Mala</option>
+      </select>
+
+      <label>4. ¿Recomendarías esta película?</label>
+      <select>
+        <option>Sí</option>
+        <option>No</option>
+      </select>
+
+      <label>5. ¿Te gustaron los productos adquiridos?</label>
+      <select>
+        <option>Sí</option>
+        <option>No</option>
+        <option>No compré</option>
+      </select>
+
+      <label>6. ¿Volverías a ver otra película aquí?</label>
+      <select>
+        <option>Claro que sí</option>
+        <option>Tal vez</option>
+        <option>No</option>
+      </select>
+
+      <label>7. Comentario adicional:</label>
+      <textarea rows="4"></textarea>
+
+      <button class="btn" type="submit">Enviar Encuesta</button>
+      <a href="index.html" class="btn btn-volver">Volver al Inicio</a>
+
+    </form>
+  </div>
+
+</body>
+</html>
